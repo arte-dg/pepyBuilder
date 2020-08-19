@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pepyBuilder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-23 06:21+0000\n"
+"PO-Revision-Date: 2020-05-23 12:57-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Loco-Version: 2.3.4; wp-5.4.1\n"
+
+#. Description of the plugin
+msgid "Crie temas do zero com o Elementor"
+msgstr ""
+
+#. Author of the plugin
+msgid "Douglas Gaspar"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://pepy.link/"
+msgstr ""
+
+#: includes/admin/admin-setting.php:77
+msgid "General"
+msgstr "Geral"
+
+#: includes/admin/admin-setting.php:82
+msgid "Template Builder"
+msgstr "pepyBuilder"
