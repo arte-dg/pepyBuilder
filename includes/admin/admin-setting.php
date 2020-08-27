@@ -201,14 +201,23 @@ class HTBuilder_Admin_Settings {
                     'default' => 'of',
                     'class'=>'htbuilder_table_row',
                 ),
-                /*array(
+                /*
+                array(
+                    'name'  => 'bl_site_logo',
+                    'label'  => __( 'Site Logo', 'htmega-addons' ),
+                    'desc'  => __( 'Site Logo', 'htmega-addons' ),
+                    'type'  => 'checkbox',
+                    'default' => 'on',
+                    'class'=>'htmega_table_row',
+                ),
+                array(
                     'name'  => 'bl_post_search_form',
                     'label'  => __( 'Post Search Form', 'ht-builder' ),
                     'desc'  => __( 'Post Search Form', 'ht-builder' ),
                     'type'  => 'checkbox',
                     'default' => 'of',
                     'class'=>'htbuilder_table_row',
-                ),*/
+                ),
                 array(
                     'name'  => 'bl_site_title',
                     'label'  => __( 'Site Title', 'ht-builder' ),
@@ -216,7 +225,7 @@ class HTBuilder_Admin_Settings {
                     'type'  => 'checkbox',
                     'default' => 'of',
                     'class'=>'htbuilder_table_row',
-                ),
+                ),*/
                 array(
                     'name'  => 'bl_post_archive',
                     'label'  => __( 'Archive Posts', 'ht-builder' ),
@@ -251,8 +260,8 @@ class HTBuilder_Admin_Settings {
                     'type'  => 'checkbox',
                     'default' => 'off',
                     'class'=>'htbuilder_table_row',
-                ),*/
-    
+                ),
+                
                 array(
                     'name'  => 'bl_post_navigation',
                     'label'  => __( 'Post Navigation', 'ht-builder' ),
@@ -260,7 +269,7 @@ class HTBuilder_Admin_Settings {
                     'type'  => 'checkbox',
                     'default' => 'on',
                     'class'=>'htbuilder_table_row',
-                ),
+                ),*/   
 
                 array(
                     'name'  => 'bl_related_post',

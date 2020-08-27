@@ -20,6 +20,7 @@ use Elementor\Widget_Base;
 use RuvuvElementorExpand\Base\Module_Base;
 use RuvuvElementorExpand\Ruvuv_Extension;
 
+
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 class Module extends Module_Base {
