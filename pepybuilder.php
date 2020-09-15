@@ -5,7 +5,7 @@
  * Plugin URI:  https://pepy.link/
  * Author:      Douglas Gaspar
  * Author URI:  https://pepy.link/
- * Version:     0.2.1
+ * Version:     0.2.5
  * License:     GPL2
  * License URI:  https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: pepybuilder
@@ -14,7 +14,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-define( 'HTBUILDER_VERSION', '0.2.0' );
+define( 'HTBUILDER_VERSION', '0.2.5' );
 define( 'HTBUILDER_PL_ROOT', __FILE__ );
 define( 'HTBUILDER_PL_URL', plugins_url( '/', HTBUILDER_PL_ROOT ) );
 define( 'HTBUILDER_PL_PATH', plugin_dir_path( HTBUILDER_PL_ROOT ) );

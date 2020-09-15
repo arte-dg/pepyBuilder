@@ -53,8 +53,8 @@ class HTBuilder_Widgets_Control{
                 //'bl_social_share',
                 'bl_post_navigation',
                 'bl_related_post',
-                //'bl_site_title',
-                //'bl_site_logo',
+                'bl_site_title',
+                'bl_site_logo',
                 //'bl_post_search_form',
                 'bl_popular_post',
             );

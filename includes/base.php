@@ -182,7 +182,7 @@ class Base {
         array_unshift( $links, $htbuilder_settings_link );
 
         if( !is_plugin_active('ht-builder-pro/ht-builder.php') ){
-            $links['htbgo_pro'] = sprintf('<a href="http://pepy.link/suporte" target="_blank" style="color: #39b54a; font-weight: bold;">' . __('Suporte','ht-builder') . '</a>');
+            $links['htbgo_pro'] = sprintf('<a href="http://pepy.link/bio/suporte" target="_blank" style="color: #39b54a; font-weight: bold;">' . __('Suporte','ht-builder') . '</a>');
         }
         
         return $links; 

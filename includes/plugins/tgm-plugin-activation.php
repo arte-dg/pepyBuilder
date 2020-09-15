@@ -12,24 +12,12 @@ function pepybuilder_tgmpa_register() {
 	$plugins = array(
 
 		array(
-			'name'				=> 'Elementor - Header, Footer & Blocks',
-			'slug'				=> 'header-footer-elementor', 
-			'required'			=> false,
+			'name'				=> 'kit Elementor addons',
+			'slug'				=> 'elementskit-lite', 
+			'required'			=> true,
 			'force_activation'	=> false,
 		),
-		array(
-			'name'				=> 'Blog for Elementor',
-			'slug'				=> 'bloglentor-for-elementor', 
-			'required'			=> false,
-			'force_activation'	=> false,
-		),
-		array(
-			'name'				=> 'Share Buttons',
-			'slug'				=> 'add-to-any', 
-			'required'			=> false,
-			'force_activation'	=> false,
-		),
-		    		
+				    		
 	);
 
 

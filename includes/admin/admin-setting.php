@@ -181,7 +181,7 @@ class HTBuilder_Admin_Settings {
                     'label'  => __( 'Post Excerpt', 'ht-builder' ),
                     'desc'  => __( 'Post Excerpt', 'ht-builder' ),
                     'type'  => 'checkbox',
-                    'default' => 'off',
+                    'default' => 'on',
                     'class'=>'htbuilder_table_row',
                 ),
 
@@ -198,10 +198,10 @@ class HTBuilder_Admin_Settings {
                     'label'  => __( 'Post Title', 'ht-builder' ),
                     'desc'  => __( 'Post Title', 'ht-builder' ),
                     'type'  => 'checkbox',
-                    'default' => 'of',
+                    'default' => 'on',
                     'class'=>'htbuilder_table_row',
                 ),
-                /*
+                
                 array(
                     'name'  => 'bl_site_logo',
                     'label'  => __( 'Site Logo', 'htmega-addons' ),
@@ -210,6 +210,7 @@ class HTBuilder_Admin_Settings {
                     'default' => 'on',
                     'class'=>'htmega_table_row',
                 ),
+                /*
                 array(
                     'name'  => 'bl_post_search_form',
                     'label'  => __( 'Post Search Form', 'ht-builder' ),
@@ -217,15 +218,15 @@ class HTBuilder_Admin_Settings {
                     'type'  => 'checkbox',
                     'default' => 'of',
                     'class'=>'htbuilder_table_row',
-                ),
+                ),*/
                 array(
                     'name'  => 'bl_site_title',
                     'label'  => __( 'Site Title', 'ht-builder' ),
                     'desc'  => __( 'Site Title', 'ht-builder' ),
                     'type'  => 'checkbox',
-                    'default' => 'of',
+                    'default' => 'on',
                     'class'=>'htbuilder_table_row',
-                ),*/
+                ),
                 array(
                     'name'  => 'bl_post_archive',
                     'label'  => __( 'Archive Posts', 'ht-builder' ),
@@ -260,7 +261,7 @@ class HTBuilder_Admin_Settings {
                     'type'  => 'checkbox',
                     'default' => 'off',
                     'class'=>'htbuilder_table_row',
-                ),
+                ),*/
                 
                 array(
                     'name'  => 'bl_post_navigation',
@@ -269,7 +270,7 @@ class HTBuilder_Admin_Settings {
                     'type'  => 'checkbox',
                     'default' => 'on',
                     'class'=>'htbuilder_table_row',
-                ),*/   
+                ),   
 
                 array(
                     'name'  => 'bl_related_post',
@@ -341,12 +342,17 @@ class HTBuilder_Admin_Settings {
                 <div class="htbuilder-document-section">
                     <div class="htbuilder-column">
                         <a href="https://pepy.link/go/pepybuilder-youtube/" target="_blank">
-                            <img src="<?php echo HTBUILDER_PL_URL; ?>/includes/admin/assets/images/01.png" alt="<?php esc_attr_e( 'Video Tutorial', 'ht-builder' ); ?>">
+                            <img src="<?php echo HTBUILDER_PL_URL; ?>/includes/admin/assets/images/00.png" alt="<?php esc_attr_e( 'Video Tutorial', 'ht-builder' ); ?>">
                         </a>
                     </div>
                     <div class="htbuilder-column">
                         <a href="https://pepy.link/go/pepy-builder-escola-elementor/" target="_blank">
                             <img src="<?php echo HTBUILDER_PL_URL; ?>/includes/admin/assets/images/02.png" alt="<?php esc_attr_e( 'Online Documentation', 'ht-builder' ); ?>">
+                        </a>
+                    </div>
+                    <div class="htbuilder-column">
+                        <a href="https://pepy.link/go/suporte/" target="_blank">
+                            <img src="<?php echo HTBUILDER_PL_URL; ?>/includes/admin/assets/images/01.png" alt="<?php esc_attr_e( 'Online Documentation', 'ht-builder' ); ?>">
                         </a>
                     </div>
                     <!--<div class="htbuilder-column">
