@@ -341,7 +341,7 @@ class HTBuilder_Admin_Settings {
 
                 <div class="htbuilder-document-section">
                     <div class="htbuilder-column">
-                        <a href="https://pepy.link/go/pepybuilder-youtube/" target="_blank">
+                        <a href="https://pepy.link/go/suporte/" target="_blank">
                             <img src="<?php echo HTBUILDER_PL_URL; ?>/includes/admin/assets/images/00.png" alt="<?php esc_attr_e( 'Video Tutorial', 'ht-builder' ); ?>">
                         </a>
                     </div>
