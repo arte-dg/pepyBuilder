@@ -12,9 +12,21 @@ function pepybuilder_tgmpa_register() {
 	$plugins = array(
 
 		array(
-			'name'				=> 'kit Elementor addons',
-			'slug'				=> 'elementskit-lite', 
+			'name'				=> 'Criar Header, Footer & Blocks',
+			'slug'				=> 'header-footer-elementor', 
 			'required'			=> true,
+			'force_activation'	=> false,
+		),
+		array(
+			'name'				=> 'Social Share Buttons',
+			'slug'				=> 'add-to-any', 
+			'required'			=> false,
+			'force_activation'	=> false,
+		),
+		array(
+			'name'				=> 'WordPress SEO',
+			'slug'				=> 'seo-by-rank-math', 
+			'required'			=> false,
 			'force_activation'	=> false,
 		),
 				    		
