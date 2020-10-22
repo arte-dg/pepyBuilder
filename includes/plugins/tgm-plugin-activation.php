@@ -28,7 +28,7 @@ function pepybuilder_tgmpa_register() {
 		array(
 			'name'				=> 'Elementor Extras',
 			'slug'				=> 'oneelements-ultimate-addons-for-elementor', 
-			'required'			=> false,
+			'required'			=> true,
 			'force_activation'	=> false,
 		),
 		array(
@@ -60,6 +60,13 @@ function pepybuilder_tgmpa_register() {
 		array(
 			'name'				=> 'Códigos Extras',
 			'slug'				=> 'header-footer-code-manager', 
+			'required'			=> false,
+			'force_activation'	=> false,
+		),
+
+		array(
+			'name'				=> 'e-addons',
+			'slug'				=> 'e-addons-for-elementor', 
 			'required'			=> false,
 			'force_activation'	=> false,
 		),
