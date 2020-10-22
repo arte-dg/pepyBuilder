@@ -5,7 +5,7 @@
  * Plugin URI:  https://pepy.link/
  * Author:      Douglas Gaspar
  * Author URI:  https://pepy.link/
- * Version:     0.3
+ * Version:     0.5
  * License:     GPL2
  * License URI:  https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: pepybuilder
@@ -26,13 +26,7 @@ require( HTBUILDER_PL_PATH.'includes/base.php' );
 //Plugins de ouro 
 include_once( HTBUILDER_PL_PATH . 'includes/plugins/class-tgm-plugin-activation.php' );
 include_once( HTBUILDER_PL_PATH . 'includes/plugins/tgm-plugin-activation.php' );
-
-//Raven
-include_once( HTBUILDER_PL_PATH . 'includes/raven/raven.php' );
-
-//Ruvuv
-include_once( HTBUILDER_PL_PATH . 'includes/ruvuv/ruvuv-extension.php' );
-
+include_once( HTBUILDER_PL_PATH . 'make-column-clickable-elementor.php' );
 //Updates 
 require_once('wp-updates-plugin.php');
 new WPUpdatesPluginUpdater_2175( 'http://wp-updates.com/api/2/plugin', plugin_basename(__FILE__));

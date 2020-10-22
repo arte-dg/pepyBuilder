@@ -17,15 +17,49 @@ function pepybuilder_tgmpa_register() {
 			'required'			=> true,
 			'force_activation'	=> false,
 		),
+
 		array(
 			'name'				=> 'Social Share Buttons',
 			'slug'				=> 'add-to-any', 
 			'required'			=> false,
 			'force_activation'	=> false,
 		),
+
+		array(
+			'name'				=> 'Elementor Extras',
+			'slug'				=> 'oneelements-ultimate-addons-for-elementor', 
+			'required'			=> false,
+			'force_activation'	=> false,
+		),
+		array(
+			'name'				=> 'Blog Designer',
+			'slug'				=> 'bloglentor-for-elementor', 
+			'required'			=> false,
+			'force_activation'	=> false,
+		),
+		array(
+			'name'				=> 'Comentários wpDiscuz',
+			'slug'				=> 'wpdiscuz', 
+			'required'			=> false,
+			'force_activation'	=> false,
+		),
+		array(
+			'name'				=> 'Ferramentas Google',
+			'slug'				=> 'google-site-kit', 
+			'required'			=> false,
+			'force_activation'	=> false,
+		),
+
 		array(
 			'name'				=> 'WordPress SEO',
 			'slug'				=> 'seo-by-rank-math', 
+			'required'			=> false,
+			'force_activation'	=> false,
+		),
+
+		array(
+			'name'				=> 'Códigos Extras',
+			'slug'				=> 'header-footer-code-manager', 
 			'required'			=> false,
 			'force_activation'	=> false,
 		),
