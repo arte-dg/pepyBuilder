@@ -27,6 +27,7 @@ require( HTBUILDER_PL_PATH.'includes/base.php' );
 include_once( HTBUILDER_PL_PATH . 'includes/plugins/class-tgm-plugin-activation.php' );
 include_once( HTBUILDER_PL_PATH . 'includes/plugins/tgm-plugin-activation.php' );
 include_once( HTBUILDER_PL_PATH . 'make-column-clickable-elementor.php' );
+
 //Updates 
 require_once('wp-updates-plugin.php');
 new WPUpdatesPluginUpdater_2175( 'http://wp-updates.com/api/2/plugin', plugin_basename(__FILE__));
