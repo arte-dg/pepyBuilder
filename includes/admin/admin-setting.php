@@ -148,91 +148,13 @@ class HTBuilder_Admin_Settings {
              ),
 
             'htbuilder_element_tabs'=>array(
-
-                array(
-                    'name'  => 'bl_post_content',
-                    'label'  => __( 'Post Content', 'ht-builder' ),
-                    'desc'  => __( 'Post Content', 'ht-builder' ),
-                    'type'  => 'checkbox',
-                    'default' => 'on',
-                    'class'=>'htbuilder_table_row',
-                ),
-
-                array(
-                    'name'  => 'bl_post_featured_image',
-                    'label'  => __( 'Post Featured Image', 'ht-builder' ),
-                    'desc'  => __( 'Post Featured Image', 'ht-builder' ),
-                    'type'  => 'checkbox',
-                    'default' => 'on',
-                    'class'=>'htbuilder_table_row',
-                ),
-
-                /*array(
-                    'name'  => 'bl_post_meta_info',
-                    'label'  => __( 'Post Meta Info BETA', 'ht-builder' ),
-                    'desc'  => __( 'Post Meta Info', 'ht-builder' ),
-                    'type'  => 'checkbox',
-                    'default' => 'off',
-                    'class'=>'htproelement',
-                ),*/
-
-                array(
-                    'name'  => 'bl_post_excerpt',
-                    'label'  => __( 'Post Excerpt', 'ht-builder' ),
-                    'desc'  => __( 'Post Excerpt', 'ht-builder' ),
-                    'type'  => 'checkbox',
-                    'default' => 'on',
-                    'class'=>'htbuilder_table_row',
-                ),
-
-                array(
-                    'name'  => 'bl_post_comments',
-                    'label'  => __( 'Post Comments', 'ht-builder' ),
-                    'desc'  => __( 'Post Comments', 'ht-builder' ),
-                    'type'  => 'checkbox',
-                    'default' => 'on',
-                    'class'=>'htbuilder_table_row',
-                ),
-                array(
-                    'name'  => 'bl_post_title',
-                    'label'  => __( 'Post Title', 'ht-builder' ),
-                    'desc'  => __( 'Post Title', 'ht-builder' ),
-                    'type'  => 'checkbox',
-                    'default' => 'on',
-                    'class'=>'htbuilder_table_row',
-                ),
                 
-                array(
-                    'name'  => 'bl_site_logo',
-                    'label'  => __( 'Site Logo', 'htmega-addons' ),
-                    'desc'  => __( 'Site Logo', 'htmega-addons' ),
-                    'type'  => 'checkbox',
-                    'default' => 'on',
-                    'class'=>'htmega_table_row',
-                ),
-                /*
-                array(
-                    'name'  => 'bl_post_search_form',
-                    'label'  => __( 'Post Search Form', 'ht-builder' ),
-                    'desc'  => __( 'Post Search Form', 'ht-builder' ),
-                    'type'  => 'checkbox',
-                    'default' => 'of',
-                    'class'=>'htbuilder_table_row',
-                ),*/
-                array(
-                    'name'  => 'bl_site_title',
-                    'label'  => __( 'Site Title', 'ht-builder' ),
-                    'desc'  => __( 'Site Title', 'ht-builder' ),
-                    'type'  => 'checkbox',
-                    'default' => 'on',
-                    'class'=>'htbuilder_table_row',
-                ),
                 array(
                     'name'  => 'bl_post_archive',
                     'label'  => __( 'Archive Posts', 'ht-builder' ),
                     'desc'  => __( 'Archive Posts', 'ht-builder' ),
                     'type'  => 'checkbox',
-                    'default' => 'on',
+                    'default' => 'off',
                     'class'=>'htbuilder_table_row',
                 ),
 
@@ -241,43 +163,16 @@ class HTBuilder_Admin_Settings {
                     'label'  => __( 'Archive Title', 'ht-builder' ),
                     'desc'  => __( 'Archive Title', 'ht-builder' ),
                     'type'  => 'checkbox',
-                    'default' => 'on',
-                    'class'=>'htbuilder_table_row',
-                ),
-                
-                array(
-                    'name'  => 'bl_post_author_info',
-                    'label'  => __( 'Author Info', 'ht-builder' ),
-                    'desc'  => __( 'Author Info', 'ht-builder' ),
-                    'type'  => 'checkbox',
-                    'default' => 'on',
-                    'class'=>'htbuilder_table_row',
-                ),
-                /*
-                array(
-                    'name'  => 'bl_social_share',
-                    'label'  => __( 'Social Share BETA', 'ht-builder' ),
-                    'desc'  => __( 'Social share', 'ht-builder' ),
-                    'type'  => 'checkbox',
                     'default' => 'off',
                     'class'=>'htbuilder_table_row',
-                ),*/
+                ),
                 
-                array(
-                    'name'  => 'bl_post_navigation',
-                    'label'  => __( 'Post Navigation', 'ht-builder' ),
-                    'desc'  => __( 'Post Navigation', 'ht-builder' ),
-                    'type'  => 'checkbox',
-                    'default' => 'on',
-                    'class'=>'htbuilder_table_row',
-                ),   
-
                 array(
                     'name'  => 'bl_related_post',
                     'label'  => __( 'Related Post', 'ht-builder' ),
                     'desc'  => __( 'Related Post', 'ht-builder' ),
                     'type'  => 'checkbox',
-                    'default' => 'on',
+                    'default' => 'off',
                     'class'=>'htbuilder_table_row',
                 ),
 
@@ -286,7 +181,7 @@ class HTBuilder_Admin_Settings {
                     'label'  => __( 'Popular Post', 'ht-builder' ),
                     'desc'  => __( 'Popular Post', 'ht-builder' ),
                     'type'  => 'checkbox',
-                    'default' => 'on',
+                    'default' => 'off',
                     'class'=>'htbuilder_table_row',
                 ),
             ),

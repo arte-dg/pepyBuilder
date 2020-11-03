@@ -12,6 +12,7 @@ use Elementor\Scheme_Typography;
 use Elementor\Repeater;
 use Elementor\Group_Control_Background;
 
+
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 class Bl_Social_Share_ELement extends Widget_Base {
@@ -19,22 +20,21 @@ class Bl_Social_Share_ELement extends Widget_Base {
     public function get_name() {
         return 'bl-social-share';
     }
-
+    
     public function get_title() {
-        return __( 'BL: Social Share', 'ht-builder' );
+        return __( 'Social Share', 'ht-builder' );
     }
 
     public function get_icon() {
-        return 'htbuilder-icon eicon-social-icons';
+        return 'htbuilder-icon eicon-share';
     }
-
     public function get_categories() {
-        return ['ht_builder'];
+        return [ 'ht-builder' ];
     }
 
     public function get_script_depends() {
         return [
-            'goodshare',
+            'htbuilder-goodshare',
         ];
     }
 
@@ -65,40 +65,37 @@ class Bl_Social_Share_ELement extends Widget_Base {
                             'type' => Controls_Manager::SELECT,
                             'default' => 'facebook',
                             'options' => [
-                                'vkontakte'       => __( 'Vkontakte', 'ht-builder' ),
-                                'facebook'        => __( 'Facebook', 'ht-builder' ),
-                                'odnoklassniki'   => __( 'Odnoklassniki', 'ht-builder' ),
-                                'moimir'          => __( 'MoiMir', 'ht-builder' ),
-                                'linkedin'        => __( 'LinkedIn', 'ht-builder' ),
-                                'tumblr'          => __( 'Tumblr', 'ht-builder' ),
-                                'pinterest'       => __( 'Pinterest', 'ht-builder' ),
-                                'reddit'          => __( 'Reddit', 'ht-builder' ),
-                                'buffer'          => __( 'Buffer', 'ht-builder' ),
-                                'twitter'         => __( 'Twitter', 'ht-builder' ),
-                                'livejournal'     => __( 'LiveJournal', 'ht-builder' ),
-                                'evernote'        => __( 'Evernote', 'ht-builder' ),
-                                'delicious'       => __( 'Delicious', 'ht-builder' ),
-                                'flipboard'       => __( 'Flipboard', 'ht-builder' ),
-                                'pocket'          => __( 'Pocket', 'ht-builder' ),
-                                'mix'             => __( 'Mix', 'ht-builder' ),
-                                'meneame'         => __( 'Meneame', 'ht-builder' ),
-                                'blogger'         => __( 'Blogger', 'ht-builder' ),
-                                'instapaper'      => __( 'Instapaper', 'ht-builder' ),
-                                'digg'            => __( 'Digg', 'ht-builder' ),
-                                'liveinternet'    => __( 'LiveInternet', 'ht-builder' ),
-                                'surfingbird'     => __( 'Surfingbird', 'ht-builder' ),
-                                'xing'            => __( 'Xing', 'ht-builder' ),
-                                'wordpress'       => __( 'WordPress', 'ht-builder' ),
-                                'baidu'           => __( 'Baidu', 'ht-builder' ),
-                                'renren'          => __( 'RenRen', 'ht-builder' ),
-                                'weibo'           => __( 'Weibo', 'ht-builder' ),
-                                'sms'             => __( 'SMS', 'ht-builder' ),
-                                'skype'           => __( 'Skype', 'ht-builder' ),
-                                'telegram'        => __( 'Telegram', 'ht-builder' ),
-                                'viber'           => __( 'Viber', 'ht-builder' ),
-                                'whatsapp'        => __( 'WhatsApp', 'ht-builder' ),
-                                'wechat'          => __( 'WhatsApp', 'ht-builder' ),
-                                'line'            => __( 'Line', 'ht-builder' ),
+                                'facebook'      => __( 'Facebook', 'ht-builder' ),
+                                'twitter'       => __( 'Twitter', 'ht-builder' ),
+                                'googleplus'    => __( 'Google+', 'ht-builder' ),
+                                'pinterest'     => __( 'Pinterest', 'ht-builder' ),
+                                'linkedin'      => __( 'Linkedin', 'ht-builder' ),
+                                'tumblr'        => __( 'tumblr', 'ht-builder' ),
+                                'vkontakte'     => __( 'Vkontakte', 'ht-builder' ),
+                                'odnoklassniki' => __( 'Odnoklassniki', 'ht-builder' ),
+                                'moimir'        => __( 'Moimir', 'ht-builder' ),
+                                'livejournal'   => __( 'Live journal', 'ht-builder' ),
+                                'blogger'       => __( 'Blogger', 'ht-builder' ),
+                                'digg'          => __( 'Digg', 'ht-builder' ),
+                                'evernote'      => __( 'Evernote', 'ht-builder' ),
+                                'reddit'        => __( 'Reddit', 'ht-builder' ),
+                                'delicious'     => __( 'Delicious', 'ht-builder' ),
+                                'stumbleupon'   => __( 'Stumbleupon', 'ht-builder' ),
+                                'pocket'        => __( 'Pocket', 'ht-builder' ),
+                                'surfingbird'   => __( 'Surfingbird', 'ht-builder' ),
+                                'liveinternet'  => __( 'Liveinternet', 'ht-builder' ),
+                                'buffer'        => __( 'Buffer', 'ht-builder' ),
+                                'instapaper'    => __( 'Instapaper', 'ht-builder' ),
+                                'xing'          => __( 'Xing', 'ht-builder' ),
+                                'wordpress'     => __( 'WordPress', 'ht-builder' ),
+                                'baidu'         => __( 'Baidu', 'ht-builder' ),
+                                'renren'        => __( 'Renren', 'ht-builder' ),
+                                'weibo'         => __( 'Weibo', 'ht-builder' ),
+                                'skype'         => __( 'Skype', 'ht-builder' ),
+                                'telegram'      => __( 'Telegram', 'ht-builder' ),
+                                'viber'         => __( 'Viber', 'ht-builder' ),
+                                'whatsapp'      => __( 'Whatsapp', 'ht-builder' ),
+                                'line'          => __( 'Line', 'ht-builder' ),
                             ],
                         ]
                     );
@@ -116,8 +113,11 @@ class Bl_Social_Share_ELement extends Widget_Base {
                         'htbuilder_social_icon',
                         [
                             'label'   => esc_html__( 'Icon', 'ht-builder' ),
-                            'type'    => Controls_Manager::ICON,
-                            'default' => 'fa fa-facebook',
+                            'type'    => Controls_Manager::ICONS,
+                            'default' => [
+                                'value'=>'fa fa-facebook',
+                                'library'=>'solid',
+                            ],
                         ]
                     );
 
@@ -321,17 +321,17 @@ class Bl_Social_Share_ELement extends Widget_Base {
                         [
                             'htbuilder_social_media' => 'facebook',
                             'htbuilder_social_title' => __( 'Facebook', 'ht-builder' ),
-                            'htbuilder_social_icon' => 'fa fa-facebook',
+                            'htbuilder_social_icon' => 'fas fa-facebook',
                         ],
                         [
                             'htbuilder_social_media' => 'twitter',
                             'htbuilder_social_title' => __( 'Twitter', 'ht-builder' ),
-                            'htbuilder_social_icon' => 'fa fa-twitter',
+                            'htbuilder_social_icon' => 'fas fa-twitter',
                         ],
                         [
-                            'htbuilder_social_media' => 'linkedin',
-                            'htbuilder_social_title' => __( 'Linkedin', 'ht-builder' ),
-                            'htbuilder_social_icon' => 'fa fa-linkedin',
+                            'htbuilder_social_media' => 'googleplus',
+                            'htbuilder_social_title' => __( 'Google Plus', 'ht-builder' ),
+                            'htbuilder_social_icon' => 'fas fa-google-plus',
                         ],
                     ],
                     'title_field' => '{{{ htbuilder_social_title }}}',
@@ -512,6 +512,7 @@ class Bl_Social_Share_ELement extends Widget_Base {
                     ],
                     'selectors' => [
                         '{{WRAPPER}} .htbuilder-social-share ul li i' => 'font-size: {{SIZE}}{{UNIT}};',
+                        '{{WRAPPER}} .htbuilder-social-share ul li svg' => 'font-size: {{SIZE}}{{UNIT}};',
                     ],
                 ]
             );
@@ -522,7 +523,7 @@ class Bl_Social_Share_ELement extends Widget_Base {
                     'name' => 'social_icon_background',
                     'label' => __( 'Background', 'ht-builder' ),
                     'types' => [ 'classic', 'gradient' ],
-                    'selector' => '{{WRAPPER}} .htbuilder-social-share li i',
+                    'selector' => '{{WRAPPER}} .htbuilder-social-share li i,{{WRAPPER}} .htbuilder-social-share li svg',
                 ]
             );
 
@@ -531,7 +532,7 @@ class Bl_Social_Share_ELement extends Widget_Base {
                 [
                     'name' => 'social_icon_border',
                     'label' => __( 'Border', 'ht-builder' ),
-                    'selector' => '{{WRAPPER}} .htbuilder-social-share li i',
+                    'selector' => '{{WRAPPER}} .htbuilder-social-share li i,{{WRAPPER}} .htbuilder-social-share li svg',
                 ]
             );
 
@@ -542,6 +543,7 @@ class Bl_Social_Share_ELement extends Widget_Base {
                     'type' => Controls_Manager::DIMENSIONS,
                     'selectors' => [
                         '{{WRAPPER}} .htbuilder-social-share li i' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
+                        '{{WRAPPER}} .htbuilder-social-share li svg' => 'border-radius: {{TOP}}px {{RIGHT}}px {{BOTTOM}}px {{LEFT}}px;',
                     ],
                 ]
             );
@@ -565,6 +567,7 @@ class Bl_Social_Share_ELement extends Widget_Base {
                     ],
                     'selectors' => [
                         '{{WRAPPER}} .htbuilder-social-share ul li i' => 'height: {{SIZE}}{{UNIT}};line-height: {{SIZE}}{{UNIT}};',
+                        '{{WRAPPER}} .htbuilder-social-share ul li svg' => 'height: {{SIZE}}{{UNIT}};line-height: {{SIZE}}{{UNIT}};',
                     ],
                 ]
             );
@@ -588,6 +591,7 @@ class Bl_Social_Share_ELement extends Widget_Base {
                     ],
                     'selectors' => [
                         '{{WRAPPER}} .htbuilder-social-share ul li i' => 'width: {{SIZE}}{{UNIT}};',
+                        '{{WRAPPER}} .htbuilder-social-share ul li svg' => 'width: {{SIZE}}{{UNIT}};',
                     ],
                 ]
             );
@@ -599,7 +603,7 @@ class Bl_Social_Share_ELement extends Widget_Base {
 
         $settings   = $this->get_settings_for_display();
 
-        $this->add_render_attribute( 'htbuilder_socialshere', 'class', 'htbuilder-social-share' );
+        $this->add_render_attribute( 'htbuilder_socialshere', 'class', 'htbuilder-social-share htbuilder-social-style-1' );
         if( $settings['social_view'] == 'icon-title' || $settings['social_view'] == 'title' ){
             $this->add_render_attribute( 'htbuilder_socialshere', 'class', 'htbuilder-social-view-'.$settings['social_view'] );
         }
@@ -611,11 +615,11 @@ class Bl_Social_Share_ELement extends Widget_Base {
                         <li class="elementor-repeater-item-<?php echo $socialmedia['_id']; ?>" data-social="<?php echo esc_attr( $socialmedia['htbuilder_social_media'] ); ?>" > 
                             <?php
                                 if( $settings['social_view'] == 'icon' ){
-                                    echo sprintf('<i class="%1$s"></i>', $socialmedia['htbuilder_social_icon'] );
+                                    echo htbuilder_Icon_manager::render_icon( $socialmedia['htbuilder_social_icon'], [ 'aria-hidden' => 'true' ] );
                                 }elseif( $settings['social_view'] == 'title' ){
                                     echo sprintf('<span>%1$s</span>', $socialmedia['htbuilder_social_title'] );
                                 }else{
-                                    echo sprintf('<i class="%1$s"></i><span>%2$s</span>', $socialmedia['htbuilder_social_icon'], $socialmedia['htbuilder_social_title'] );
+                                    echo sprintf('%1$s<span>%2$s</span>', htbuilder_Icon_manager::render_icon( $socialmedia['htbuilder_social_icon'], [ 'aria-hidden' => 'true' ] ), $socialmedia['htbuilder_social_title'] );
                                 }
                                 if( $settings['show_counter'] == 'yes' ){
                                     echo '<span class="htbuilder-share-counter" data-counter="'.$socialmedia['htbuilder_social_media'].'"></span>';
@@ -629,6 +633,5 @@ class Bl_Social_Share_ELement extends Widget_Base {
 
     }
 
-    
-
 }
+

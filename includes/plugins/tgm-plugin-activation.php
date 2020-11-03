@@ -19,18 +19,19 @@ function pepybuilder_tgmpa_register() {
 		),
 
 		array(
+			'name'				=> 'Elementos para o tema',
+			'slug'				=> 'tci-ultimate-element-themes', 
+			'required'			=> true,
+			'force_activation'	=> false,
+		),
+
+		array(
 			'name'				=> 'Social Share Buttons',
 			'slug'				=> 'add-to-any', 
 			'required'			=> false,
 			'force_activation'	=> false,
 		),
 
-		array(
-			'name'				=> 'Elementor Extras',
-			'slug'				=> 'oneelements-ultimate-addons-for-elementor', 
-			'required'			=> true,
-			'force_activation'	=> false,
-		),
 		array(
 			'name'				=> 'Blog Designer',
 			'slug'				=> 'bloglentor-for-elementor', 
@@ -64,12 +65,6 @@ function pepybuilder_tgmpa_register() {
 			'force_activation'	=> false,
 		),
 
-		array(
-			'name'				=> 'e-addons',
-			'slug'				=> 'e-addons-for-elementor', 
-			'required'			=> false,
-			'force_activation'	=> false,
-		),
 				    		
 	);
 

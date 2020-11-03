@@ -5,7 +5,7 @@
  * Plugin URI:  https://pepy.link/
  * Author:      Douglas Gaspar
  * Author URI:  https://pepy.link/
- * Version:     0.5
+ * Version:     0.6
  * License:     GPL2
  * License URI:  https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: pepybuilder
